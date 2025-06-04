@@ -1,6 +1,7 @@
 import styled from "styled-components";
-import {AboutGridWrapper} from "./AboutGridWrapper.tsx";
 import {AboutExperience} from "./AboutExperience.tsx";
+import {ExperienceGridWrapper} from "./ExperienceGridWrapper.tsx";
+import {AboutEducation} from "./AboutEducation.tsx";
 
 
 export const About = () => {
@@ -11,11 +12,10 @@ export const About = () => {
                 <AboutText>Des del 2016 i fins l’actualitat, imparteixo cursos de formació ocupacional adreçats a persones en atur de totes les edats i cursos a empreses, per a treballadors en actiu:</AboutText>
 
                 <AboutExperience/>
+                <AboutEducation/>
 
-                <AboutTitle>Formació Acadèmica</AboutTitle>
-                <AboutGridWrapper curs={""} moduls={""} empresa={""} hores={""} dates={""}/>
                 <AboutTitle>Formació Compementària</AboutTitle>
-                <AboutGridWrapper curs={""} moduls={""} empresa={""} hores={""} dates={""}/>
+                <ExperienceGridWrapper curs={""} moduls={""} empresa={""} hores={""} dates={""}/>
             </AboutContent>
         </StyledAbout>
     );
