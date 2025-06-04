@@ -24,7 +24,8 @@ export const AboutGridWrapper = ({curs, moduls, empresa, hores, dates}: AboutGri
 const StyledAboutGridWrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    gap: 20px;
+    gap: 30px;
+    white-space: pre-line;
     
     & > :first-child {
         grid-area: 1/1/2/3;
@@ -52,7 +53,7 @@ const Curs = styled.p`
 `
 
 const Moduls = styled.p`
-    white-space: pre-line;
+    
 `
 
 const Empresa = styled.p`
