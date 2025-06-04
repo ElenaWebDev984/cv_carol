@@ -15,7 +15,7 @@ export const experienceData: ExperienceTypes[] = [
         moduls: `Certificat de professionalitat del SOC – FOAP:
                 - MF1442_3 Programació didàctica d'accions formatives per a l'ocupació
                 - MF1444_3 Impartició i tutorització d'accions formatives per a l'ocupació
-                - MF1446_3 Orientació laboral i promoció de la qualitat en la formació professional per a l&#39;ocupació`,
+                - MF1446_3 Orientació laboral i promoció de la qualitat en la formació professional per a l'ocupació`,
         empresa: "Centre de Formació Aptos – Inserció i servei",
         hores: "190 hores",
         dates: "Des d’abril fins a juny de 2025",
@@ -86,8 +86,8 @@ export const experienceData: ExperienceTypes[] = [
         id: 9,
         curs: "GESTIÓ DE MAGATZEM",
         moduls: `Programa mesures específiques d’accés al treball 
-        – Projecte primers contractes – Intermediació
-laboral`,
+            – Projecte primers contractes
+            – Intermediació laboral`,
         empresa: "Creu Roja (Reus)",
         hores: "55 hores",
         dates: "Maig 2024",
