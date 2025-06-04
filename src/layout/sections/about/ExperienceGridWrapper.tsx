@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-type AboutGridWrapperTypes = {
+type ExperienceGridWrapperTypes = {
     curs: string
     moduls: string
     empresa: string
@@ -9,19 +9,19 @@ type AboutGridWrapperTypes = {
 }
 
 
-export const AboutGridWrapper = ({curs, moduls, empresa, hores, dates}: AboutGridWrapperTypes) => {
+export const ExperienceGridWrapper = ({curs, moduls, empresa, hores, dates}: ExperienceGridWrapperTypes) => {
     return (
-        <StyledAboutGridWrapper>
+        <StyledExperienceGridWrapper>
             <Curs>{curs}</Curs>
             <Moduls>{moduls}</Moduls>
             <Empresa>{empresa}</Empresa>
             <Hores>{hores}</Hores>
             <Dates>{dates}</Dates>
-        </StyledAboutGridWrapper>
+        </StyledExperienceGridWrapper>
     );
 };
 
-const StyledAboutGridWrapper = styled.div`
+const StyledExperienceGridWrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     gap: 30px;
