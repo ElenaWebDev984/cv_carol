@@ -6,19 +6,19 @@ export const Menu = () => {
         <StyledMenu>
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#">Portada</a>
                 </li>
                 <li>
-                    <a href="#">About me</a>
+                    <a href="#">Sobre mi</a>
                 </li>
                 <li>
-                    <a href="#">Works</a>
+                    <a href="#">Treball</a>
                 </li>
                 <li>
-                    <a href="#">Testimony</a>
+                    <a href="#">Aficions</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#">Contacte</a>
                 </li>
             </ul>
         </StyledMenu>
