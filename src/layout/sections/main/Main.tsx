@@ -1,6 +1,8 @@
 import photo from '../../../assets/images/photo.png'
 import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
+import {Photo} from "../../../components/Photo.tsx";
+
 
 export const Main = () => {
     return (
@@ -23,10 +25,10 @@ const StyledMain = styled.section`
     background-color: #fff;
 `
 
-const Photo = styled.img`
-    width: 430px;
-    height: 540px;
-    border-radius: 10%;
-    object-fit: cover;
-`
+// const Photo = styled.img`
+//     width: 430px;
+//     height: 540px;
+//     border-radius: 10%;
+//     object-fit: cover;
+// `
 
