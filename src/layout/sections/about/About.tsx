@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import {AboutExperience} from "./AboutExperience.tsx";
-import {ExperienceGridWrapper} from "./ExperienceGridWrapper.tsx";
 import {AboutEducation} from "./AboutEducation.tsx";
+import {AboutEducationComplementaria} from "./AboutEducationComplementaria.tsx";
 
 
 export const About = () => {
@@ -13,9 +13,7 @@ export const About = () => {
 
                 <AboutExperience/>
                 <AboutEducation/>
-
-                <AboutTitle>Formació Compementària</AboutTitle>
-                <ExperienceGridWrapper curs={""} moduls={""} empresa={""} hores={""} dates={""}/>
+                <AboutEducationComplementaria/>
             </AboutContent>
         </StyledAbout>
     );
