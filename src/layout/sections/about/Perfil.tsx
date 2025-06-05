@@ -5,8 +5,8 @@ import photo2 from './../../../assets/images/photo2.jpg'
 
 export const Perfil = () => {
     return (
-       <FlexWrapper>
-           <Photo src={photo2} alt="photo"/>
+       <FlexWrapper justify="space-around" align={'center'} wrap={'wrap'}>
+           <Photo src={photo2} alt="photo" borderRadius={'30%'}/>
            <ul>
                <li>Actitud responsable i resolutiva.</li>
                <li>Habilitats interpersonals.</li>

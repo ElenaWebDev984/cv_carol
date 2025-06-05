@@ -7,7 +7,7 @@ import {Photo} from "../../../components/Photo.tsx";
 export const Main = () => {
     return (
         <StyledMain>
-            <FlexWrapper align={'center'} justify={'space-around'}>
+            <FlexWrapper align={'center'} justify={'space-around'} wrap={'wrap'}>
                 <div>
                     <p>Hola a tothom!!!</p>
                     <span>Soc Carol Tarrío Viñuales</span>
