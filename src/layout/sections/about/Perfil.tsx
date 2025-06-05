@@ -8,6 +8,9 @@ export const Perfil = () => {
        <FlexWrapper justify="space-around" align={'center'} wrap={'wrap'}>
            <Photo src={photo2} alt="photo" borderRadius={'30%'}/>
            <ul>
+               <li>
+                   <h3>PERFIL</h3>
+               </li>
                <li>Actitud responsable i resolutiva.</li>
                <li>Habilitats interpersonals.</li>
                <li>Interès pel desenvolupament professional.</li>
