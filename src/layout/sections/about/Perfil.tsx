@@ -1,13 +1,14 @@
 import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
 import {Photo} from "../../../components/Photo.tsx";
 import photo2 from './../../../assets/images/photo2.jpg'
+import styled from "styled-components";
 
 
 export const Perfil = () => {
     return (
        <FlexWrapper justify="space-around" align={'center'} wrap={'wrap'}>
            <Photo src={photo2} alt="photo" borderRadius={'30%'}/>
-           <ul>
+           <PerfilList>
                <li>
                    <h3>PERFIL</h3>
                </li>
@@ -22,8 +23,14 @@ export const Perfil = () => {
                <li>Nivell avançat d’office.</li>
                <li>Disseny de cursos.</li>
                <li>Experiència a les aules.</li>
-           </ul>
+           </PerfilList>
        </FlexWrapper>
     );
 };
+
+const PerfilList = styled.ul`
+    li {
+        text-align: left;
+    }
+`
 

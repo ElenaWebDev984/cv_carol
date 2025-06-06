@@ -22,13 +22,5 @@ export const Main = () => {
 
 const StyledMain = styled.section`
     min-height: 100vh;
-    background-color: #fff;
 `
-
-// const Photo = styled.img`
-//     width: 430px;
-//     height: 540px;
-//     border-radius: 10%;
-//     object-fit: cover;
-// `
 
