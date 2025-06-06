@@ -1,6 +1,6 @@
 import {AboutTitle} from "./About.tsx";
 import {ExperienceGridWrapper} from "./ExperienceGridWrapper.tsx";
-import {educationComplementariaData} from "./data/educationComplementariaData.ts";
+import {educationComplementariaData} from "../../../data/about/educationComplementariaData.ts";
 
 
 export const AboutEducationComplementaria = () => {

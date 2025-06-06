@@ -1,6 +1,6 @@
 import {ExperienceGridWrapper} from "./ExperienceGridWrapper.tsx";
 import {AboutTitle} from "./About.tsx";
-import {educationData} from "./data/educationData.ts";
+import {educationData} from "../../../data/about/educationData.ts";
 
 
 export const AboutEducation = () => {
