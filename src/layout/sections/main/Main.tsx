@@ -2,20 +2,23 @@ import photo from '../../../assets/images/photo.png'
 import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
 import {Photo} from "../../../components/Photo.tsx";
+import {Container} from "../../../components/Container.tsx";
 
 
 export const Main = () => {
     return (
         <StyledMain>
-            <FlexWrapper align={'center'} justify={'space-around'} wrap={'wrap'}>
-                <div>
-                    <p>Hola a tothom!!!</p>
-                    <span>Soc Carol Tarrío Viñuales</span>
-                    <p><span>FORMADORA</span> DE CURSOS DE FORMACIÓ OCUPACIONAL I DE CURSOS PER A EMPRESES.</p>
-                </div>
+            <Container>
+                <FlexWrapper align={'center'} justify={'space-around'} wrap={'wrap'}>
+                    <div>
+                        <p>Hola a tothom!!!</p>
+                        <span>Soc Carol Tarrío Viñuales</span>
+                        <p><span>FORMADORA</span> DE CURSOS DE FORMACIÓ OCUPACIONAL I DE CURSOS PER A EMPRESES.</p>
+                    </div>
 
-                <Photo src={photo} alt="photo"/>
-            </FlexWrapper>
+                    <Photo src={photo} alt="photo"/>
+                </FlexWrapper>
+            </Container>
         </StyledMain>
     );
 };
