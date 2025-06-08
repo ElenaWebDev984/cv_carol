@@ -25,13 +25,13 @@ const StyledMenuSocial = styled.ul`
     gap: 20px;
 `
 
-const SocialList = styled.li`
+export const SocialList = styled.li`
     &:hover {
         transform: translateY(-4px);
     }
 `
 
-const MenuSocialLink = styled.a`
+export const MenuSocialLink = styled.a`
 
 `
 
