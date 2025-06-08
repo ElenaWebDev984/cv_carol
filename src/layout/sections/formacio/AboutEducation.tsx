@@ -1,12 +1,12 @@
-import {ExperienceGridWrapper} from "./ExperienceGridWrapper.tsx";
-import {AboutTitle} from "./About.tsx";
+import {ExperienceGridWrapper} from "../experiencia/ExperienceGridWrapper.tsx";
 import {educationData} from "../../../data/about/educationData.ts";
+import {Subtitle} from "../../../components/Subtitle.tsx";
 
 
 export const AboutEducation = () => {
     return (
         <>
-            <AboutTitle>Formació Acadèmica</AboutTitle>
+            <Subtitle title='Formació Acadèmica' />
             {educationData.map((course) => (
                 <ExperienceGridWrapper key={course.id} {...course} />
             ))}
