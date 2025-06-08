@@ -1,8 +1,14 @@
+import styled from "styled-components";
+
 type TitleTypes = {
     title: string
 }
 
 export const Title = ({title}: TitleTypes) => {
-    return <h2>{title}</h2>
+    return <StyledTitle>{title}</StyledTitle>
 };
+
+const StyledTitle = styled.h2`
+    text-align: center;
+`
 
