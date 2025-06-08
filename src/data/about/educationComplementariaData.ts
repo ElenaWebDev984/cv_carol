@@ -12,7 +12,7 @@ export const educationComplementariaData: EducationComplementariaDataTypes[] = [
         id: 1,
         curs: '“Certificat d’Aptitud Pedagògica” (CAP)',
         moduls: ``,
-        empresa: `“Institut de Ciències de l&#39;Educació de la Universitat Rovira i Virgili”`,
+        empresa: `“Institut de Ciències de l'Educació de la Universitat Rovira i Virgili”`,
         hores: "300 hores",
         dates: "Abril de l’any 2000",
     },
