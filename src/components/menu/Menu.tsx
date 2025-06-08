@@ -12,6 +12,9 @@ export const Menu = () => {
                     <a href="#">Sobre mi</a>
                 </li>
                 <li>
+                    <a href="#">Habilitats</a>
+                </li>
+                <li>
                     <a href="#">Treball</a>
                 </li>
                 <li>
