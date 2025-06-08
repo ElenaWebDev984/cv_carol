@@ -19,7 +19,7 @@ export const socialData = [
     },
     {
         id: 4,
-        href: '#',
+        href: 'https://wa.me/619847748',
         iconId: 'whatsapp',
         target: '_blank',
     },
