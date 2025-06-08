@@ -1,0 +1,1 @@
+// Formación, montaña, viajar, el otoño, cine, cocinar y pasar un buen rato con familia o amigos.
