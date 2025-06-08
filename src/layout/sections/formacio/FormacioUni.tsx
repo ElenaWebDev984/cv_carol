@@ -3,7 +3,7 @@ import {educationData} from "../../../data/about/educationData.ts";
 import {Subtitle} from "../../../components/Subtitle.tsx";
 
 
-export const AboutEducation = () => {
+export const FormacioUni = () => {
     return (
         <>
             <Subtitle title='Formació Acadèmica' />

@@ -3,7 +3,7 @@ import {educationComplementariaData} from "../../../data/about/educationCompleme
 import {Subtitle} from "../../../components/Subtitle.tsx";
 
 
-export const AboutEducationComplementaria = () => {
+export const FormacioComplementaria = () => {
     return (
         <>
             <Subtitle title='Formació Compementària' />
