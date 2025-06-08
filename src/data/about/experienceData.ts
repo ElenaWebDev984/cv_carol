@@ -394,7 +394,7 @@ export const experienceData: ExperienceTypes[] = [
         curs: '“Logística i Atenció al client”',
         moduls: ``,
         empresa: "Curs per a joves a El Vendrell " +
-            "– Fundació Intermedia – Formació i treball UTE – CNO Tarragona",
+            "– Fundació Intermedia – Formació i experiencia UTE – CNO Tarragona",
         hores: "90 hores",
         dates: "2018 - 2019",
     },
