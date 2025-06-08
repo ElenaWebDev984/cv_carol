@@ -10,7 +10,7 @@ export const MenuSocial = () => {
                 return (
                     <SocialList key={index}>
                         <MenuSocialLink href={socialData.href} target={socialData.target}>
-                            <Icon iconId={socialData.iconId}  width={'30'} height={'30'} viewBox={'0 0 34 30'}/>
+                            <Icon iconId={socialData.iconId}  width={'30'} height={'30'} viewBox={'0 0 30 30'}/>
                         </MenuSocialLink>
                     </SocialList>
                 )
