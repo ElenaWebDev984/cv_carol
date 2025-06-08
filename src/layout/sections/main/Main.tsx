@@ -13,7 +13,7 @@ export const Main = () => {
                     <div>
                         <p>Hola a tothom!!!</p>
                         <span>Soc Carol Tarrío Viñuales</span>
-                        <p><span>FORMADORA</span> DE CURSOS DE FORMACIÓ OCUPACIONAL I DE CURSOS PER A EMPRESES.</p>
+                        <p><span>Formadora</span>de cursos de formació ocupacional i de cursos per a empreses</p>
                     </div>
 
                     <Photo src={photo} alt="photo"/>
@@ -24,6 +24,6 @@ export const Main = () => {
 };
 
 const StyledMain = styled.section`
-    min-height: 100vh;
+    
 `
 
