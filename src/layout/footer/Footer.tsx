@@ -66,3 +66,25 @@ const Copyright = styled.p`
     }
 `
 
+
+
+// TODO
+//     <SocialList>
+//         <MenuSocialLink href='tel:619847748' target='_blank'>
+//              <Icon iconId='phone'  width={'30'} height={'30'} viewBox={'0 0 30 30'}/>
+//          </MenuSocialLink>
+//          619847748
+//      </SocialList>
+//      <SocialList>
+//          <MenuSocialLink href='mailto:carol.tarrio.profe@hotmail.com' target='_blank'>
+//              <Icon iconId='email'  width={'30'} height={'30'} viewBox={'0 0 30 30'}/>
+//          </MenuSocialLink>
+//          carol.tarrio.profe@hotmail.com
+//      </SocialList>
+//      <SocialList>
+//          <MenuSocialLink href='#' target='_blank'>
+//              <Icon iconId='location'/>
+//          </MenuSocialLink>
+//          43850 – Cambrils
+//      </SocialList>
+
