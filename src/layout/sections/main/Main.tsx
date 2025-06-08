@@ -1,4 +1,4 @@
-import photo from '../../../assets/images/photo.png'
+import photo from '../../../assets/images/photo.webp'
 import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
 import {Photo} from "../../../components/Photo.tsx";

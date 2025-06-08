@@ -1,13 +1,13 @@
 import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
 import {Photo} from "../../../components/Photo.tsx";
-import photo2 from './../../../assets/images/photo2.jpg'
+import photo2 from './../../../assets/images/photo2.webp'
 import styled from "styled-components";
 
 
 export const Perfil = () => {
     return (
        <FlexWrapper justify="space-around" align={'center'} wrap={'wrap'}>
-           <Photo src={photo2} alt="photo" borderRadius={'30%'}/>
+           <Photo src={photo2} alt="photo" borderRadius={'10%'}/>
            <PerfilList>
                <li>
                    <h3>PERFIL</h3>
