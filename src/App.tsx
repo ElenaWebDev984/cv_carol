@@ -1,8 +1,10 @@
 import './App.css'
 import {Header} from "./layout/header/Header.tsx";
 import {Main} from "./layout/sections/main/Main.tsx";
-import {About} from "./layout/sections/about/About.tsx";
 import {Footer} from "./layout/footer/Footer.tsx";
+import {Perfil} from "./layout/sections/perfil/Perfil.tsx";
+import {Experiencia} from "./layout/sections/experiencia/Experiencia.tsx";
+
 
 
 export const App = () => {
@@ -10,7 +12,13 @@ export const App = () => {
         <div className="App">
             <Header/>
             <Main/>
-            <About/>
+            <Perfil/>
+            <Experiencia/>
+            {/*<Treball/>*/}
+            {/*<Formació/>*/}
+            {/*<Aficions/>*/}
+            {/*<Testimony/>*/}
+            {/*<Contacte/>*/}
             <Footer/>
         </div>
     )
