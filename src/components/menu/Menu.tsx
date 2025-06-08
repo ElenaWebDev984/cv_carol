@@ -9,13 +9,16 @@ export const Menu = () => {
                     <a href="#">Portada</a>
                 </li>
                 <li>
-                    <a href="#">Sobre mi</a>
+                    <a href="#">Perfil</a>
                 </li>
                 <li>
-                    <a href="#">Habilitats</a>
+                    <a href="#">Experiència</a>
                 </li>
                 <li>
                     <a href="#">Treball</a>
+                </li>
+                <li>
+                    <a href="#">Formació</a>
                 </li>
                 <li>
                     <a href="#">Aficions</a>
