@@ -20,7 +20,7 @@ export const educationComplementariaData: EducationComplementariaDataTypes[] = [
         id: 2,
         curs: `Curs “SSCE002PO - ACREDITACIÓ DOCENT PER A TELEFORMACIÓ: FORMADOR/A ON LINE”`,
         moduls: ``,
-        empresa: `Formació impartida pel “Sistema de Formación Profesional para el Empleo” en el marc de la &quot;Resolución de 18 de enero de 2019, del Servicio Público de Empleo Estatal (SEPE).`,
+        empresa: `Formació impartida pel “Sistema de Formación Profesional para el Empleo” en el marc de la Resolución de 18 de enero de 2019, del Servicio Público de Empleo Estatal (SEPE).`,
         hores: "60 hores",
         dates: "",
     },
