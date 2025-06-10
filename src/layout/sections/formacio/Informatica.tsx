@@ -1,4 +1,4 @@
-import {Subtitle} from "../../../components/Subtitle.tsx";
+import {SectionSubtitle} from "../../../components/SectionSubtitle.tsx";
 import {SkillSubtitle, SkillTitle} from "./Skill.tsx";
 import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
@@ -9,7 +9,7 @@ import {Icon} from "../../../components/icon/Icon.tsx";
 export const Informatica = () => {
     return (
         <StyledInformaticaSkills>
-            <Subtitle title='Informàtica'/>
+            <SectionSubtitle title='Informàtica'/>
             <FlexWrapper wrap='wrap' gap='0 70px'>
                 <ActicContent>
                     <Photo src={actic} alt="actic " width='100' height='60' objectFit='content'/>

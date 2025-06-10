@@ -2,22 +2,22 @@ import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
 import {Photo} from "../../../components/Photo.tsx";
 import photo2 from '../../../assets/images/photo2.webp'
 import styled from "styled-components";
-import {Title} from "../../../components/Title.tsx";
+import {SectionTitle} from "../../../components/SectionTitle.tsx";
 import { Container } from "../../../components/Container.tsx";
-import {Subtitle} from "../../../components/Subtitle.tsx";
+import {SectionSubtitle} from "../../../components/SectionSubtitle.tsx";
 
 
 export const SobreMe = () => {
     return (
         <StyledSobreMe>
             <Container>
-                <Title title='Sobre mi' />
+                <SectionTitle title='Sobre mi' />
                 <SobreMeContent>
                     <Photo src={photo2} alt="photo" borderRadius={'10%'}/>
                     <FlexWrapper direction='column' justify="space-around" align={'center'} wrap={'wrap'}>
                         <PerfilList>
                             <li>
-                                <Subtitle title='Perfil'/>
+                                <SectionSubtitle title='Perfil'/>
                             </li>
                             <li>Actitud responsable i resolutiva.</li>
                             <li>Habilitats interpersonals.</li>
@@ -33,7 +33,7 @@ export const SobreMe = () => {
                         </PerfilList>
                         <PerfilList>
                             <li>
-                                <Subtitle title='Aficions'/>
+                                <SectionSubtitle title='Aficions'/>
                             </li>
                             <li>Viatjar, lectura, cinema, cuinar,natació i caminar per la muntanya.</li>
                         </PerfilList>
