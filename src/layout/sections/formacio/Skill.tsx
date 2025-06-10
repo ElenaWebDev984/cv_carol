@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import {Icon} from "../../../components/icon/Icon.tsx";
+import {theme} from "../../../styles/Theme.ts";
 
 
 type SkillTypes = {
@@ -22,7 +23,7 @@ export const Skill = ({iconID, title, subtitle, text}: SkillTypes) => {
 
 const StyledSkill = styled.div`
     text-align: center;
-    border: 3px dashed #fff0f9;
+    border: 3px dashed ${theme.colors.secondaryBgc};
     padding: 10px;
     width: 25%;
 `
