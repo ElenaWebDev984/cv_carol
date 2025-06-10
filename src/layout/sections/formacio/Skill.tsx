@@ -22,9 +22,12 @@ export const Skill = ({iconID, title, subtitle, text}: SkillTypes) => {
 
 const StyledSkill = styled.div`
     text-align: center;
+    border: 3px dashed #fff0f9;
+    padding: 10px;
+    width: 25%;
 `
 
-const SkillTitle = styled.h4`
+export const SkillTitle = styled.h4`
     
 `
 
@@ -32,7 +35,7 @@ const SkillText = styled.p`
 
 `
 
-const SkillSubtitle = styled.h5`
+export const SkillSubtitle = styled.h5`
 
 `
 
