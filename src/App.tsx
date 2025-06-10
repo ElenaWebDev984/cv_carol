@@ -5,6 +5,7 @@ import {Footer} from "./layout/footer/Footer.tsx";
 import {SobreMe} from "./layout/sections/sobreMi/SobreMe.tsx";
 import {Experiencia} from "./layout/sections/experiencia/Experiencia.tsx";
 import {Formacio} from "./layout/sections/formacio/Formacio.tsx";
+import {Treball} from "./layout/sections/treball/Treball.tsx";
 
 
 
@@ -16,7 +17,7 @@ export const App = () => {
             <Main/>
             <SobreMe/>
             <Experiencia/>
-            {/*<Treball/>*/}
+            <Treball/>
             <Formacio/>
             {/*<Aficions/>*/}
             {/*<Testimony/>*/}
