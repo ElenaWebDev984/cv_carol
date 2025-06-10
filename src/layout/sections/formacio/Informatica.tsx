@@ -5,6 +5,7 @@ import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
 import {Image} from "../../../components/Image.tsx";
 import actic from '../../../assets/images/informatica/actic.png'
 import {Icon} from "../../../components/icon/Icon.tsx";
+import {theme} from "../../../styles/Theme.ts";
 
 export const Informatica = () => {
     return (
@@ -43,7 +44,7 @@ const ActicContent = styled.div`
     text-align: center;
     align-items: center;
     gap: 0 30px;
-    border: 3px dashed #fff0f9;
+    border: 3px dashed ${theme.colors.secondaryBgc};
     padding: 10px;
 `
 
@@ -51,7 +52,7 @@ const OfficeContent = styled.div`
     display: flex;
     flex-direction: column;
     text-align: center;
-    border: 3px dashed #fff0f9;
+    border: 3px dashed ${theme.colors.secondaryBgc};
     padding: 10px;
 `
 
