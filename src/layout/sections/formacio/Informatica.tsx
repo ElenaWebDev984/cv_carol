@@ -7,8 +7,11 @@ export const Informatica = () => {
     return (
         <StyledInformaticaSkills>
             <Subtitle title='Informàtica'/>
-            <FlexWrapper>
-                <Skill/>
+            <FlexWrapper wrap='wrap'>
+                <Skill iconID='word'/>
+                <Skill iconID='powerpoint'/>
+                <Skill iconID='excel'/>
+                <Skill iconID='access'/>
             </FlexWrapper>
 
         </StyledInformaticaSkills>
@@ -16,7 +19,5 @@ export const Informatica = () => {
 };
 
 const StyledInformaticaSkills = styled.div`
-    h3 {
-        text-align: center;
-    }
+    
 `
