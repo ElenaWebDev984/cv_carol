@@ -4,7 +4,7 @@ import {Menu} from "../../components/menu/Menu.tsx";
 import {Container} from "../../components/Container.tsx";
 import {theme} from "../../styles/Theme.ts";
 import {FlexWrapper} from "../../components/FlexWrapper.tsx";
-import {menuItems} from "../../data/menuData.ts";
+import {menuItems} from "../../data/menu/menuData.ts";
 
 
 export const Header = () => {

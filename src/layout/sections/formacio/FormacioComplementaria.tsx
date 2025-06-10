@@ -1,5 +1,5 @@
 import {ExperienceGridWrapper} from "../experiencia/ExperienceGridWrapper.tsx";
-import {educationComplementariaData} from "../../../data/educationComplementariaData.ts";
+import {educationComplementariaData} from "../../../data/education/educationComplementariaData.ts";
 import {SectionSubtitle} from "../../../components/SectionSubtitle.tsx";
 
 

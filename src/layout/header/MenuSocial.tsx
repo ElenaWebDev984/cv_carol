@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {socialData} from "../../data/socialData.ts";
+import {socialData} from "../../data/social/socialData.ts";
 import {Icon} from "../../components/icon/Icon.tsx";
 
 
