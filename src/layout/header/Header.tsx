@@ -4,8 +4,7 @@ import {Menu} from "../../components/menu/Menu.tsx";
 import {Container} from "../../components/Container.tsx";
 import {theme} from "../../styles/Theme.ts";
 import {FlexWrapper} from "../../components/FlexWrapper.tsx";
-
-export const menuItems = ['Portada', 'Sobre mi', 'Experiència', 'Treball', 'Formació',]
+import {menuItems} from "../../data/menuData.ts";
 
 
 export const Header = () => {
