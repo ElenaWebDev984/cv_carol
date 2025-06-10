@@ -1,13 +1,21 @@
 import styled from "styled-components";
 import {Icon} from "../../../components/icon/Icon.tsx";
 
-export const Skill = () => {
+
+type SkillTypes = {
+    iconID: string
+    title?: string
+    subtitle?: string
+    text?: string
+}
+
+export const Skill = ({iconID, title, subtitle, text}: SkillTypes) => {
     return (
         <StyledSkill>
-            <Icon iconId='catalan' width='70' height='70' viewBox='0 0 70 70'/>
-            <SkillTitle>Títol de Català</SkillTitle>
-            <SkillSubtitle>Nivell C</SkillSubtitle>
-            <SkillText>Final Batxillerat any 1994</SkillText>
+            <Icon iconId={iconID} width='70' height='70' viewBox='0 0 70 70'/>
+            <SkillTitle>{title}</SkillTitle>
+            <SkillSubtitle>{subtitle}</SkillSubtitle>
+            <SkillText>{text}</SkillText>
         </StyledSkill>
     );
 };
