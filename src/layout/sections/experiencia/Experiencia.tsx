@@ -2,6 +2,7 @@ import styled from "styled-components";
 import {ExperienciaLaboral} from "./ExperienciaLaboral.tsx";
 import {Container} from "../../../components/Container.tsx";
 import {Title} from "../../../components/Title.tsx";
+import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
 
 
 export const Experiencia = () => {
@@ -9,9 +10,11 @@ export const Experiencia = () => {
         <StyledExperiencia>
             <Container>
                 <ExperienciaContent>
-                    <Title title='Experiència Laboral' />
-                    <ExperienciaText>Des del 2016 i fins l’actualitat, imparteixo cursos de formació ocupacional adreçats a persones en atur de totes les edats i cursos a empreses, per a treballadors en actiu:</ExperienciaText>
-                    <ExperienciaLaboral/>
+                    <FlexWrapper direction="column">
+                        <Title title='Experiència Laboral' />
+                        <ExperienciaText>Des del 2016 i fins l’actualitat, imparteixo cursos de formació ocupacional adreçats a persones en atur de totes les edats i cursos a empreses, per a treballadors en actiu:</ExperienciaText>
+                        <ExperienciaLaboral/>
+                    </FlexWrapper>
                 </ExperienciaContent>
             </Container>
         </StyledExperiencia>
