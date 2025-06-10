@@ -8,7 +8,7 @@ type PhotoTypes = {
 }
 
 
-export const Photo = styled.img<PhotoTypes>`
+export const Image = styled.img<PhotoTypes>`
     width: ${props => props.width || '430px'};
     height: ${props => props.height || '540px'};
     border-radius: ${props => props.borderRadius || '10%'};

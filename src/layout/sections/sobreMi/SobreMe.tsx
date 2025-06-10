@@ -1,5 +1,5 @@
 import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
-import {Photo} from "../../../components/Photo.tsx";
+import {Image} from "../../../components/Image.tsx";
 import photo2 from '../../../assets/images/photo2.webp'
 import styled from "styled-components";
 import {SectionTitle} from "../../../components/SectionTitle.tsx";
@@ -13,7 +13,7 @@ export const SobreMe = () => {
             <Container>
                 <SectionTitle title='Sobre mi' />
                 <SobreMeContent>
-                    <Photo src={photo2} alt="photo" borderRadius={'10%'}/>
+                    <Image src={photo2} alt="photo" borderRadius={'10%'}/>
                     <FlexWrapper direction='column' justify="space-around" align={'center'} wrap={'wrap'}>
                         <PerfilList>
                             <li>

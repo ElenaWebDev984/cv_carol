@@ -1,7 +1,7 @@
 import photo from '../../../assets/images/photo.webp'
 import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
-import {Photo} from "../../../components/Photo.tsx";
+import {Image} from "../../../components/Image.tsx";
 import {Container} from "../../../components/Container.tsx";
 
 
@@ -16,7 +16,7 @@ export const Main = () => {
                         <p><span>Formadora</span>de cursos de formació ocupacional i de cursos per a empreses</p>
                     </div>
 
-                    <Photo src={photo} alt="photo"/>
+                    <Image src={photo} alt="photo"/>
                 </FlexWrapper>
             </Container>
         </StyledMain>
