@@ -41,7 +41,7 @@ const Mask = styled.tspan`
     height: 50%;
     overflow-y: hidden;
     //outline: 1px solid darkviolet;
-    color: ${theme.colors.testimonyTextFont};
+    color: ${theme.colors.headerFooterIconsFont};
 //    secondaryBgc
     
     & + & {
@@ -56,22 +56,42 @@ const Mask = styled.tspan`
 
 const ListItem = styled.li`
     position: relative;
-    
+
+    &::before {
+        content: '';
+        display: inline-block;
+        height: 3px;
+        background-color: ${theme.colors.headerFooterIconsFont};
+        
+        position: absolute;
+        top: 50%;
+        left: -10px;
+        right: -10px;
+        z-index: 1;
+        
+        transform: scaleX(0);
+    }
+
     &:hover {
-        ${Mask} {
-            transform: skewX(12deg)  translateX(5px);
-            
-            & + ${Mask} {
-                transform: skewX(12deg)  translateX(-5px);
-            }
+        &::before {
+            transform: scaleX(1);
         }
         
-        
+        ${Mask} {
+            transform: skewX(12deg) translateX(-5px);
+            color: ${theme.colors.testimonyTextFont};
+
+            & + ${Mask} {
+                transform: skewX(12deg) translateX(5px);
+            }
+        }
+
+
     }
 `
 
 const Link = styled.a`
     font-weight: 400;
     font-size: 24px;
-    color: ${theme.colors.headerFooterIconsFont};
+    color: transparent;
 `
