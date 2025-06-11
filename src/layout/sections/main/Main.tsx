@@ -6,7 +6,6 @@ import {Container} from "../../../components/Container.tsx";
 import {theme} from "../../../styles/Theme.ts";
 
 
-
 export const Main = () => {
     return (
         <StyledMain>
@@ -44,7 +43,7 @@ const Name = styled.p`
     font-size: 50px;
     text-transform: capitalize;
     margin: 15px 0;
-    
+
     span {
         color: ${theme.colors.accentColor};
     }
@@ -63,7 +62,7 @@ const Button = styled.button`
     height: 65px;
     border-radius: 18px;
     padding: 20px 60px;
-    margin-top: 20px;
+    margin-top: 30px;
 
     color: #F8EEEF;
     font-weight: 400;
@@ -73,9 +72,10 @@ const Button = styled.button`
 `
 
 const PhotoWrapper = styled.div`
+    margin: 100px;
     position: relative;
     z-index: 0;
-    
+
     &::before {
         content: '';
         width: 620px;
@@ -83,8 +83,8 @@ const PhotoWrapper = styled.div`
         top: -65px;
         left: -30px;
         background: #FB3F5C80;
-        
-       position: absolute;
+
+        position: absolute;
         z-index: -1;
     }
 `

@@ -10,5 +10,9 @@ export const SectionTitle = ({title}: SectionTitleTypes) => {
 
 const StyledSectionTitle = styled.h2`
     text-align: center;
+    font-family: Nunito, sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+
 `
 
