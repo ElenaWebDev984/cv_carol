@@ -22,7 +22,8 @@ export const MenuSocial = () => {
 const StyledMenuSocial = styled.ul`
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
+    margin: 20px 0;
 `
 
 export const SocialList = styled.li`
