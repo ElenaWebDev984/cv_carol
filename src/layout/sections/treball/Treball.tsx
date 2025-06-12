@@ -16,7 +16,7 @@ export const Treball = () => {
         <StyledTreball>
             <Container>
                 <SectionTitle title='Treball'/>
-                <FlexWrapper wrap='wrap' gap='20px'>
+                <FlexWrapper wrap='wrap' gap='60px 45px'>
                     <Work src={work1} alt='work1' text=''/>
                     <Work src={work2} alt='work2' text=''/>
                     <Work src={work3} alt='work3' text=''/>
@@ -30,6 +30,6 @@ export const Treball = () => {
 };
 
 const StyledTreball = styled.section`
-
+    
 `
 
