@@ -13,5 +13,6 @@ const StyledSectionSubtitle = styled.h2`
     font-family: Nunito, sans-serif;
     font-weight: 700;
     font-size: 32px;
+    margin-bottom: 20px;
 `
 
