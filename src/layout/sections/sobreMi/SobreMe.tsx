@@ -14,7 +14,7 @@ export const SobreMe = () => {
                 <SectionTitle title='Sobre mi' />
                 <SobreMeContent>
                     <Image src={photo2} alt="photo" borderRadius={'10%'}/>
-                    <FlexWrapper direction='column' justify="space-around" align={'center'} wrap={'wrap'}>
+                    <FlexWrapper direction='column' justify="space-around" align={'center'} wrap={'wrap'} gap='50px'>
                         <PerfilList>
                             <li>
                                 <SectionSubtitle title='Perfil'/>
@@ -57,9 +57,6 @@ const SobreMeContent = styled.div`
 const PerfilList = styled.ul`
     li {
         text-align: left;
-    }
-    
-    li {
         font-weight: 400;
         font-size: 24px;
     }
