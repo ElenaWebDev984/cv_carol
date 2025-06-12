@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {theme} from "../../../styles/Theme.ts";
 
 type ExperienceGridWrapperTypes = {
     curs: string
@@ -22,10 +23,16 @@ export const ExperienceGridWrapper = ({curs, moduls, empresa, hores, dates}: Exp
 };
 
 const StyledExperienceGridWrapper = styled.div`
+    font-family: Nunito, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    gap: 30px;
+    gap: 50px;
     white-space: pre-line;
+    margin-bottom: 50px;
+    position: relative;
     
     & > :first-child {
         grid-area: 1/1/2/3;
@@ -45,6 +52,18 @@ const StyledExperienceGridWrapper = styled.div`
 
     & > :last-child {
         grid-area: 1/9/2/10;
+    }
+
+    &::after {
+        content: '';
+        display: inline-block;
+        left: 0;
+        right: 0;
+        bottom: -10px;
+        height: 2px;
+        background-color: ${theme.colors.secondaryBgc};
+        opacity: 30%;
+        position: absolute;
     }
 `
 
