@@ -4,6 +4,7 @@ import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
 import {Image} from "../../../components/Image.tsx";
 import {Container} from "../../../components/Container.tsx";
 import {theme} from "../../../styles/Theme.ts";
+import {Button} from "../../../components/Button.tsx";
 
 
 export const Main = () => {
@@ -15,7 +16,7 @@ export const Main = () => {
                         <Greeting>Hola a tothom!!!</Greeting>
                         <Name>Soc <span>Carol Tarrío Viñuales</span></Name>
                         <MainTitle>Formadora de cursos de formació ocupacional i de cursos per a empreses</MainTitle>
-                        <Button>Download CV</Button>
+                        <Button text='Descargar CV'/>
                     </div>
                     <PhotoWrapper>
                         <Image src={photo} alt="photo"/>
@@ -54,21 +55,6 @@ const MainTitle = styled.h1`
     font-size: 30px;
     vertical-align: middle;
     //text-transform: lowercase;
-`
-
-const Button = styled.button`
-    background: #FB3F5C;
-    width: 220px;
-    height: 65px;
-    border-radius: 18px;
-    padding: 20px 60px;
-    margin-top: 30px;
-
-    color: #F8EEEF;
-    font-weight: 400;
-    font-size: 20px;
-    white-space: nowrap;
-    text-align: center;
 `
 
 const PhotoWrapper = styled.div`
