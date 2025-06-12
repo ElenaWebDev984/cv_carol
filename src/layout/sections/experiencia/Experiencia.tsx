@@ -3,6 +3,7 @@ import {ExperienciaLaboral} from "./ExperienciaLaboral.tsx";
 import {Container} from "../../../components/Container.tsx";
 import {SectionTitle} from "../../../components/SectionTitle.tsx";
 import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
+import {theme} from "../../../styles/Theme.ts";
 
 
 export const Experiencia = () => {
@@ -30,6 +31,11 @@ const ExperienciaContent = styled.div`
 `
 
 const ExperienciaText = styled.p`
-
+    font-family: Nunito,sans-serif;
+    text-align: left;
+    font-weight: 400;
+    font-size: 24px;
+    color: ${theme.colors.formFont};
+    margin-bottom: 50px;
 `
 
