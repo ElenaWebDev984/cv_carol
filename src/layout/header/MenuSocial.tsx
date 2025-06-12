@@ -3,6 +3,7 @@ import {socialData} from "../../data/social/socialData.ts";
 import {Icon} from "../../components/icon/Icon.tsx";
 
 
+
 export const MenuSocial = () => {
     return (
         <StyledMenuSocial>
@@ -10,7 +11,7 @@ export const MenuSocial = () => {
                 return (
                     <SocialList key={index}>
                         <MenuSocialLink href={socialData.href} target={socialData.target}>
-                            <Icon iconId={socialData.iconId}  width={'30'} height={'30'} viewBox={'0 0 30 30'}/>
+                            <Icon iconId={socialData.iconId}  width={'30'} height={'30'} viewBox={'-5 -8 33 33'}/>
                         </MenuSocialLink>
                     </SocialList>
                 )
@@ -27,12 +28,21 @@ const StyledMenuSocial = styled.ul`
 `
 
 export const SocialList = styled.li`
-    &:hover {
-        transform: translateY(-4px);
-    }
+    
 `
 
 export const MenuSocialLink = styled.a`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &:hover {
+        transform: translateY(-4px);
+        background-color: rgba(254, 197, 206, 0.2);
+        border-radius: 50%;
+        width: 35px;
+        height: 38px;
 
+    }
 `
 
