@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {theme} from "../styles/Theme.ts";
 
 type SectionSubtitleTypes = {
     title: string
@@ -13,6 +14,7 @@ const StyledSectionSubtitle = styled.h2`
     font-family: Nunito, sans-serif;
     font-weight: 700;
     font-size: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color: ${theme.colors.formFont};
 `
 
