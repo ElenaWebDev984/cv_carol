@@ -35,6 +35,7 @@ export const Footer = () => {
 
 const StyledFooter = styled.footer`
     background-color: ${theme.colors.accentColor};
+    padding: 30px 0;
 `
 
 const Location = styled.ul`
@@ -47,13 +48,14 @@ const Location = styled.ul`
     li {
         display: flex;
         text-align: center;
+        color: ${theme.colors.headerFooterIconsFont};
     }
 `
 
 const Copyright = styled.p`
-    //font-weight: bold;
     line-height: 1.4;
     color: ${theme.colors.testimonyTextFont};
+    margin-bottom: 10px;
 
     span {
         background: ${theme.colors.linearGradientFont};
