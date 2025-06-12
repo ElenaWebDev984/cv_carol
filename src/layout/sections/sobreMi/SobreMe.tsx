@@ -13,8 +13,8 @@ export const SobreMe = () => {
             <Container>
                 <SectionTitle title='Sobre mi' />
                 <SobreMeContent>
-                    <Image src={photo2} alt="photo" borderRadius={'10%'}/>
-                    <FlexWrapper direction='column' justify="space-around" align={'center'} wrap={'wrap'} gap='50px'>
+                    <FlexWrapper justify="space-around" align={'center'} gap='100px'>
+                        <Image src={photo2} alt="photo" borderRadius={'10%'}/>
                         <PerfilList>
                             <li>
                                 <SectionSubtitle title='Perfil'/>
@@ -30,12 +30,6 @@ export const SobreMe = () => {
                             <li>Nivell avançat d’office.</li>
                             <li>Disseny de cursos.</li>
                             <li>Experiència a les aules.</li>
-                        </PerfilList>
-                        <PerfilList>
-                            <li>
-                                <SectionSubtitle title='Aficions'/>
-                            </li>
-                            <li>Viatjar, lectura, cinema, cuinar,natació i caminar per la muntanya.</li>
                         </PerfilList>
                     </FlexWrapper>
                 </SobreMeContent>
@@ -54,7 +48,11 @@ const SobreMeContent = styled.div`
     justify-content: space-around;
 `
 
-const PerfilList = styled.ul`
+export const PerfilList = styled.ul`
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    
     li {
         text-align: left;
         font-weight: 400;
