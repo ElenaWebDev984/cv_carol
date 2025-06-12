@@ -12,7 +12,7 @@ export const Formacio = () => {
     return (
         <StyledFormacio>
             <Container>
-               <FlexWrapper direction='column'>
+               <FlexWrapper direction='column' gap='20px'>
                    <SectionTitle title='Formació' />
                    <FormacioUni/>
                    <FormacioComplementaria/>
