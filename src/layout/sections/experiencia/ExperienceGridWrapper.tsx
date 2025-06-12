@@ -25,7 +25,7 @@ export const ExperienceGridWrapper = ({curs, moduls, empresa, hores, dates}: Exp
 const StyledExperienceGridWrapper = styled.div`
     font-family: Nunito, sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
 
     display: grid;
     grid-template-columns: repeat(9, 1fr);
@@ -84,5 +84,5 @@ const Hores = styled.p`
 `
 
 const Dates = styled.p`
-
+  
 `
