@@ -13,15 +13,15 @@ export const Footer = () => {
                 <FlexWrapper direction="column" align='center'>
                     <Location>
                         <li>
-                            <Icon iconId='phone'/>
+                            <Icon iconId='phone' viewBox='-14 -14 50 50'/>
                             619847748
                         </li>
                         <li>
-                            <Icon iconId='email'/>
+                            <Icon iconId='email' viewBox='-14 -14 50 50'/>
                             carol.tarrio.profe@hotmail.com
                         </li>
                         <li>
-                            <Icon iconId='location'/>
+                            <Icon iconId='location' viewBox='-14 -14 50 50'/>
                             43850 – Cambrils
                         </li>
                     </Location>
@@ -47,7 +47,7 @@ const Location = styled.ul`
     
     li {
         display: flex;
-        text-align: center;
+        align-items: center;
         color: ${theme.colors.headerFooterIconsFont};
     }
 `
