@@ -58,5 +58,11 @@ const PerfilList = styled.ul`
     li {
         text-align: left;
     }
+    
+    li {
+        font-weight: 400;
+        font-size: 24px;
+    }
 `
+
 
