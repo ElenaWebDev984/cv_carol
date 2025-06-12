@@ -21,5 +21,5 @@ export const Idiomes = () => {
 };
 
 const StyledIdiomesSkills = styled.div`
-    
+    padding: 30px 0;
 `
